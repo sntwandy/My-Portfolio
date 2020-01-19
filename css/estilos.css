@@ -1,4 +1,25 @@
 body
 {
-    background-color: aqua;
+    background-color: white; /*Con esta propiedad definimos el color de fondo*/
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6
+{
+    font-family: 'Alata', sans-serif; /*Con esta propiedad definimos la tipografia*/
+    font-weight: normal; /*Con esta propiedad colocamos el grosor basicamente de la fuente*/
+}
+
+.aboutMe-mainTitle
+{
+    font-size: 40px; /*Con esta propiedad definimos el tamano de la fuente*/
+    line-height: 1.5em; /*Con esta propiedad definimos el espaciado entre una linea y otra de la fuente*/
+    letter-spacing: -0.5px; /*Con esta propiedad definimos el espaciado entre letras.*/
+    /*text-transform: uppercase; Con esta propiedad definimos el tipo de texto, si todo en mayus o minus etc...*/
+}
+
+.aboutMe-image
+{
+    box-shadow: 10px 10px 20px rgba(0,0,0,0.5);
+    border-radius: 3em;
 }
