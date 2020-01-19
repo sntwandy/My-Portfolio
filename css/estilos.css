@@ -10,7 +10,33 @@ h1, h2, h3, h4, h5, h6
     font-weight: normal; /*Con esta propiedad colocamos el grosor basicamente de la fuente*/
 }
 
-.aboutMe-mainTitle
+/* HEADER */
+.header
+{
+    background-color: #15191C;
+    color: white;
+}
+
+.header a 
+{
+    color: white;
+    text-decoration: none;
+}
+
+/* ABOUT ME*/
+.about-me
+{
+    text-align: center;
+    background-color: #15191C;
+    color: white;
+}
+
+.about-me strong
+{
+    color: yellowgreen;
+}
+
+.about-me-name
 {
     font-size: 40px; /*Con esta propiedad definimos el tamano de la fuente*/
     line-height: 1.5em; /*Con esta propiedad definimos el espaciado entre una linea y otra de la fuente*/
@@ -18,8 +44,45 @@ h1, h2, h3, h4, h5, h6
     /*text-transform: uppercase; Con esta propiedad definimos el tipo de texto, si todo en mayus o minus etc...*/
 }
 
-.aboutMe-image
+.about-me h1
+{
+    margin: 0%;
+}
+
+.about-me-image
 {
     box-shadow: 10px 10px 20px rgba(0,0,0,0.5);
-    border-radius: 3em;
+    border-radius: 10%;
+    border-style: hidden;
 }
+
+/* EDUCATION */
+
+/* HABILITIES */
+
+/* EXPERIENCE */
+.myExperience-details{
+    width: 500px;
+}
+
+.myExperience-imageContainer
+{
+    width: 500px;
+}
+
+/* EVENTS */
+
+
+/* CONTACT ME */
+
+/* FOOTER */
+
+/*.aboutMe
+{
+    background-image: url('https://imgur.com/kJklcv6.jpg');
+    background-color: #15191C;
+    background-repeat: no-repeat;
+    background-size: 300px;
+    background-position-x: right;
+    color: white;
+} */
