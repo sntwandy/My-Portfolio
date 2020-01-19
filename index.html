@@ -7,33 +7,33 @@
         <link rel="stylesheet" href="css/estilos.css">
     </head>
     <body>
-        <header id="inicio">
+        <header id="inicio" class="header">
             <div>
-                <figure>
-                    <img src="https://i.imgur.com/Ff63Uc2.png" alt="Logo de https://sntwandy.com" />
+                <figure class="header-logoContainer">
+                    <img class="header-logo" src="https://i.imgur.com/Ff63Uc2.png" alt="Logo de https://sntwandy.com" />
                 </figure>
-                <nav>
+                <nav class="menu">
                     <ol>
                         <li>
-                            <a href="#inicio">Inicio</a>
+                            <a class="menu-link" href="#inicio">Inicio</a>
                         </li>
                         <li>
-                            <a href="#sobre-mi">Sobre mi</a>
+                            <a class="menu-link" href="#sobre-mi">Sobre mi</a>
                         </li>
                         <li>
-                            <a href="#educacion">Educacion</a>
+                            <a class="menu-link" href="#educacion">Educacion</a>
                         </li>
                         <li>
-                            <a href="#mis-habilidades">Mis habilidades</a>
+                            <a class="menu-link" href="#mis-habilidades">Mis habilidades</a>
                         </li>
                         <li>
-                            <a href="#mi-experiencia">Mi experiencia</a>
+                            <a class="menu-link" href="#mi-experiencia">Mi experiencia</a>
                         </li>
                         <li>
-                            <a href="#eventos">Eventos</a>
+                            <a class="menu-link" href="#eventos">Eventos</a>
                         </li>
                         <li>
-                            <a href="#contactame">Contactame</a>
+                            <a class="menu-link" href="#contactame">Contactame</a>
                         </li>
                     </ol>
                 </nav>
@@ -42,13 +42,15 @@
 
         <!--SOBRE MI-->
 
-        <section id="sobre-mi">
-            <h1>
+        <section id="sobre-mi" class="aboutMe">
+            <h1 class="aboutMe-mainTitle">
                 Soy <strong>Wandy Santana</strong>,<br>desarrollador <strong>Front-end</strong> <br> y de videojuegos con <strong>Unity</strong>.
             </h1>
-            <img src="https://imgur.com/kJklcv6.jpg" alt="Wandy Santana" width="300">
-            <h3>Sobre mi:</h3>
-            <p>
+            <figure class="aboutMe-imageContainer">
+                <img class="aboutMe-image" src="https://imgur.com/kJklcv6.jpg" alt="Wandy Santana" width="300">
+            </figure>
+            <h3 class="aboutMe-subtitle">Sobre mi:</h3>
+            <p class="aboutMe-Content">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, vitae fugiat 
                 temporibus soluta deserunt consequatur ipsam repellat, ratione culpa velit non 
                 praesentium? Unde necessitatibus, maiores amet repellat corporis laudantium totam.
@@ -60,18 +62,18 @@
 
         <!--EDUACION-->
         <hr>
-        <section id="educacion">
-            <h2>Educacion.</h2>
+        <section id="educacion" class="education">
+            <h2 class="education-mainTitle">Educacion.</h2>
         </section>
 
         <!--MIS HABILIDADES-->
         <hr>
-        <section id="mis-habilidades">
-            <h2>Mis Habilidades.</h2>
-            <article>
-                <img src="" alt="HTML5 image" />
-                <h3>HTML5</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        <section id="mis-habilidades" class="myHabilities">
+            <h2 class="myHabilities-mainTitle">Mis Habilidades.</h2>
+            <article class="myHabilities-article">
+                <img class="myHabilities-image" src="" alt="HTML5 image" />
+                <h3 class="myHabilities-title">HTML5</h3>
+                <p class="myHabilities-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                     Ea voluptatum temporibus quisquam laborum reprehenderit 
                     facilis saepe perspiciatis ipsa, quo molestiae mollitia, 
                     minima blanditiis quidem quas assumenda et animi deserunt 
@@ -82,46 +84,46 @@
 
         <!--MI EXPERIENCIA-->
         <hr>
-        <section id="mi-experiencia">
-            <h2>Mi Experiencia.</h2>
-            <h4>Proyectos destacados:</h4>
-            <article>
-                <h3>Find the Route.</h3>
-                <h6>Unity5 / C#</h6>
-                <p><small><strong>Fecha:</strong> 00/00/0000 (En desarrollo)</small></p>
-                <p>El proyecto <strong>Find the Route</strong> es un juego desarrollado en el motor
+        <section id="mi-experiencia" class="myExperience">
+            <h2 class="myExperience-mainTitle">Mi Experiencia.</h2>
+            <h4 class="myExperience-subtitle">Proyectos destacados:</h4>
+            <article class="myExperience-article">
+                <h3 class="myExperience-projectTitle">Find the Route.</h3>
+                <h6 class="myExperience-projectSubtitle">Unity5 / C#</h6>
+                <p class="myExperience-date"><small><strong>Fecha:</strong> 00/00/0000 (En desarrollo)</small></p>
+                <p class="myExperience-content">El proyecto <strong>Find the Route</strong> es un juego desarrollado en el motor
                 de <strong>Unity5</strong>, es un videojuego para movil, se trata de encontrar la ruta mas
                 adecuada para completar el desafio, las rutas son tipos laverintos.
                 </p>
-                <figure>
-                    <img src="https://imgur.com/jOyTm2W.png" alt="Proyecto Find the Route" />
+                <figure class="myExperience-imageContainer">
+                    <img class="myExperience-image" src="https://imgur.com/jOyTm2W.png" alt="Proyecto Find the Route" />
                 </figure>
             </article>
         </section>
 
         <!--EVENTOS-->
         <hr>
-        <section id="eventos">
-            <h2>Eventos</h2>
-            <article>
-                <figure>
-                    <img src="https://imgur.com/BXDdql6.jpg" alt="ClaroTech" width="500">
+        <section id="eventos" class="events">
+            <h2 class="events-mainTitle">Eventos</h2>
+            <article class="events-article">
+                <figure class="events-imageContainer">
+                    <img class="events-image" src="https://imgur.com/BXDdql6.jpg" alt="ClaroTech" width="500">
                 </figure>
-                <h3>ClaroTech 2019</h3>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                <h3 class="events-subtitle">ClaroTech 2019</h3>
+                <p class="events-content">Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
                     Laboriosam magni magnam, provident id illo voluptatem 
                     cupiditate, illum officiis unde velit, vero assumenda 
                     perferendis odit numquam voluptas aperiam inventore est quae?
                 </p>
-                <a href="#">Video del evento</a>
+                <a class="events-link" href="#">Video del evento</a>
             </article>
         </section>
 
         <!--CONTACTAME-->
         <hr>
-        <section id="contactame">
-            <h3>Contactame</h3>
-            <form action="/formulario">
+        <section id="contactame" class="contact">
+            <h3 class="contact-mainTitle">Contactame</h3>
+            <form action="/formulario" class="form-email">
                 <label for="email">Email:</label>
                 <input id="email" type="email" placeholder="alias@dominio.com">
                 <input type="submit" value="Enviar">
@@ -130,6 +132,6 @@
 
         <!--FOOTER-->
         <hr>
-        <footer>Footer</footer>
+        <footer class="footer">Footer</footer>
     </body>
 </html>
