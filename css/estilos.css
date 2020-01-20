@@ -152,13 +152,17 @@ h1, h2, h3, h4, h5, h6
 }
 
 /* EXPERIENCE */
-.myExperience-details{
+.experience-details{
     width: 500px;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.2);
+    padding: 10px 20px 10px 20px; 
 }
 
-.myExperience-imageContainer
+.experience-image
 {
-    width: 500px;
+    width: 350px;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
 }
 
 /* EVENTS */
