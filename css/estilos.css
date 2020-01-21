@@ -16,11 +16,12 @@ h1, h2, h3, h4, h5, h6
 {
     background-color: #15191C;
     color: white;
+    height: 90px;
 }
 
 .header-content figure 
 {
-    margin-top: 0px;
+    margin: 0px;
 }
 
 .header a 
@@ -29,9 +30,42 @@ h1, h2, h3, h4, h5, h6
     text-decoration: none;
 }
 
-.menu ol
+.menu li 
+{
+    height: inherit;
+}
+
+.menu ol, li
 {
     margin: 0px;
+    padding: 0px;
+    list-style: none;
+    align-items: center;
+}
+
+.menu a
+{
+    height: inherit;
+    display: flex;
+    align-items: center;
+    padding: 0px 10px;
+}
+
+.header-content 
+{
+    display: flex;
+    justify-content: space-between;
+    height: inherit;
+}
+
+.menu{
+    height: inherit;
+}
+
+.menu ol 
+{
+    display: flex;
+    height: inherit;
 }
 
 /* ABOUT ME*/
@@ -91,7 +125,9 @@ h1, h2, h3, h4, h5, h6
 .habilities-container
 {
     display: flex;
-    margin-left: 180px;
+    /*margin-left: 180px;*/
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .habilities-container-html
@@ -109,6 +145,7 @@ h1, h2, h3, h4, h5, h6
     background-repeat: no-repeat;
     background-position-x: right;
     margin: 0px 100px 0px 0px;
+    height: 200px;
 }
 
 .habilities-container-css3
