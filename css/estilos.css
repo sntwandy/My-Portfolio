@@ -188,6 +188,14 @@ h1, h2, h3, h4, h5, h6
     font-weight: 800;
 }
 
+.habilities-main-title
+{
+    text-align: center;
+    font-weight: 900;
+    font-size: 50px;
+    color: black;
+}
+
 /* EXPERIENCE */
 .experience-details{
     width: 500px;
@@ -202,12 +210,76 @@ h1, h2, h3, h4, h5, h6
     border-radius: 10px;
 }
 
+.experience-title
+{
+    text-align: center;
+    font-weight: 900;
+    font-size: 50px;
+    color: black;
+}
+
 /* EVENTS */
 
+.events
+{
+    display: flex;
+    margin-left: 200px;
+}
 
+.events-title
+{
+    text-align: center;
+    font-weight: 900;
+    font-size: 50px;
+    color: black;
+}
+
+.events-image-container
+{
+    width: 500px;
+    height: 500px;
+    background-color: aliceblue;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.2);
+
+}
+
+.events-description
+{
+    margin-top: -260px;
+    position: relative;
+    width: 400px;
+    height: 210px;
+    margin-left: 68px;
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.2);
+}
+
+.events-description p 
+{
+    text-align: justify;
+}
+
+.events-description a
+{
+    text-decoration: none;
+    border: 1px solid #0070BA;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: #0070BA;
+}
+
+.event-container
+{
+    background-color: white;
+}
 /* CONTACT ME */
 
 /* FOOTER */
+
+
 
 /*.aboutMe
 {
