@@ -226,7 +226,7 @@ h1, h2, h3, h4, h5, h6
 {
     background-color: #15191C;
     color: white;
-    height: 800px;
+    height: auto;
     display: block;
     justify-content: space-around;
 }
@@ -236,6 +236,7 @@ h1, h2, h3, h4, h5, h6
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+
 }
 
 .experience
@@ -243,6 +244,7 @@ h1, h2, h3, h4, h5, h6
     display: inherit;
     justify-content: center;
     margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .experience-details{
@@ -435,7 +437,7 @@ h1, h2, h3, h4, h5, h6
 
 @media screen and (max-width: 1024)
 {
-
+   
 }
 
 @media screen and (max-device-width: 767px)
@@ -465,6 +467,11 @@ h1, h2, h3, h4, h5, h6
     .header-logoContainer
     {
         text-align: center;
+    }
+
+    .experience
+    {
+        margin-top: 0px;
     }
 }
 
