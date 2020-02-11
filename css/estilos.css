@@ -438,11 +438,33 @@ h1, h2, h3, h4, h5, h6
 
 }
 
-@media screen and (max-device-width: 768px)
+@media screen and (max-device-width: 767px)
 {
-    body
+    .header
     {
-        
+        display: block;
+        height: auto;
+    }
+
+    .header-content
+    {
+        display: inherit;
+        height: auto;
+    }
+
+    .menu ol li
+    {
+        height: 50px;
+    }
+
+    .menu ol li a 
+    {   display: flex;
+        justify-content: center;
+    }
+
+    .header-logoContainer
+    {
+        text-align: center;
     }
 }
 
