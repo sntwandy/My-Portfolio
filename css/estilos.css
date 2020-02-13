@@ -462,8 +462,21 @@ h1, h2, h3, h4, h5, h6
     color: white;
 } */
 
-
-
+.burguer-button
+{
+    width: 70px;
+    height: 70px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    display: none;
+    line-height: 70px;
+    text-align: center;
+    position: fixed;
+    left: 5px;
+    top: 5px;
+    color: white;
+    z-index: 4;
+}
 
 /*MEDIAS QUERIES*/
 /*Si hacemos desktop first, comenzamos desde el mas grande*/
@@ -475,6 +488,11 @@ h1, h2, h3, h4, h5, h6
 
 @media screen and (max-device-width: 767px)
 {
+    .burguer-button
+    {
+        display: block;
+    }
+
     .header
     {
         display: block;
@@ -487,14 +505,42 @@ h1, h2, h3, h4, h5, h6
         height: auto;
     }
 
+    .menu
+    {
+        position: fixed;
+        top: 0px;
+        background-color: rgba(0, 0, 0, 0.5);
+        z-index: 3;
+        width: 100vw;
+        height: 100vh;
+        left: -100vw;
+        transition: .3s;
+    }
+
+    .menu.is-active
+    {
+        left: 0;
+    }
+
+    .menu ol
+    {
+        padding: 0%;
+        margin-top: 30%;
+        width: inherit;
+        height: inherit;
+    }
+
     .menu ol li
     {
-        height: 50px;
+        height: 15%;
     }
 
     .menu ol li a 
     {   display: flex;
         justify-content: center;
+        width: 100%;
+        font-size: 7em;
+        text-decoration: underline;
     }
 
     .header-logoContainer
@@ -557,5 +603,5 @@ h1, h2, h3, h4, h5, h6
 
 @media screen and (max-width: 320)
 {
-
+    
 }
