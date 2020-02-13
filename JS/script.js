@@ -25,6 +25,7 @@ function validation(event)
         burguerButton.removeEventListener('click', showHide);
     }
     console.log(event.matches);
+    validation(mediaiPad);
 }
 
 function showHide()
